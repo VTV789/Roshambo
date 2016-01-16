@@ -24,16 +24,43 @@
                                     <rect key="frame" x="161" y="437" width="79" height="30"/>
                                 </variation>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fgX-yk-R3R">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="59" y="187" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yju-KX-leW">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="296" y="194" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5al-A2-0Cb">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="128" width="46" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="Rd1-gA-e8e"/>
+                                <exclude reference="fgX-yk-R3R"/>
+                                <exclude reference="yju-KX-leW"/>
+                                <exclude reference="5al-A2-0Cb"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Rd1-gA-e8e"/>
+                                <include reference="fgX-yk-R3R"/>
+                                <include reference="yju-KX-leW"/>
+                                <include reference="5al-A2-0Cb"/>
                             </mask>
                         </variation>
                     </view>
