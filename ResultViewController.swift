@@ -1,5 +1,5 @@
 //
-//  resultViewController.swift
+//  ResultViewController.swift
 //  Roshambo
 //
 //  Created by Vinh Vu on 1/17/16.
