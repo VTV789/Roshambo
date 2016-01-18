@@ -14,6 +14,7 @@
 		236381561C4A04180023B1BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236381541C4A04180023B1BC /* LaunchScreen.storyboard */; };
 		236381611C4A04180023B1BC /* RoshamboTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236381601C4A04180023B1BC /* RoshamboTests.swift */; };
 		2363816C1C4A04180023B1BC /* RoshamboUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2363816B1C4A04180023B1BC /* RoshamboUITests.swift */; };
+		23CAB4241C4CA6B200481A58 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CAB4231C4CA6B200481A58 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		236381671C4A04180023B1BC /* RoshamboUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoshamboUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2363816B1C4A04180023B1BC /* RoshamboUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoshamboUITests.swift; sourceTree = "<group>"; };
 		2363816D1C4A04180023B1BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23CAB4231C4CA6B200481A58 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResultViewController.swift; path = ../ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		2363814A1C4A04180023B1BC /* Roshambo */ = {
 			isa = PBXGroup;
 			children = (
+				23CAB4231C4CA6B200481A58 /* ResultViewController.swift */,
 				2363814B1C4A04180023B1BC /* AppDelegate.swift */,
 				2363814D1C4A04180023B1BC /* ViewController.swift */,
 				2363814F1C4A04180023B1BC /* Main.storyboard */,
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23CAB4241C4CA6B200481A58 /* ResultViewController.swift in Sources */,
 				2363814E1C4A04180023B1BC /* ViewController.swift in Sources */,
 				2363814C1C4A04180023B1BC /* AppDelegate.swift in Sources */,
 			);
@@ -482,6 +486,7 @@
 				236381721C4A04180023B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		236381731C4A04180023B1BC /* Build configuration list for PBXNativeTarget "RoshamboTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				236381751C4A04180023B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		236381761C4A04180023B1BC /* Build configuration list for PBXNativeTarget "RoshamboUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				236381781C4A04180023B1BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
