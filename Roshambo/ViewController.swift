@@ -20,6 +20,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func rock(sender: AnyObject) {
+        var controller: ViewController
+        controller = self.storyboard?.instantiateViewControllerWithIdentifier("letsPlayViewController") as! ViewController
+        
+        self.presentViewController(controller, animated: true, completion: nil)
+    }
 
+    
 }
 
