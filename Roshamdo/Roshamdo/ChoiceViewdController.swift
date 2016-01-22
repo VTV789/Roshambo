@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ChoiceViewController.swift
 //  Roshamdo
 //
 //  Created by Vinh Vu on 1/19/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ChoiceViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
 }
+
 
