@@ -19,14 +19,6 @@ class ChoiceViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-    
-    @IBAction private func playRock(sender: UIButton) {
-        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as!
-        ResultsViewController
-        vc.userChoice = getUserShape(sender)
-        prsentViewCOntroller(vc, animated: true, completion: nil)
-    }
-    
 }
 
 
