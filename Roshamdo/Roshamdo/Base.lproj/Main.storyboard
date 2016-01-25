@@ -24,13 +24,6 @@
                                     <rect key="frame" x="188" y="139" width="25" height="21"/>
                                 </variation>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zF-wc-izU">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" backgroundImage="Scissors"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="311" y="266" width="25" height="21"/>
-                                </variation>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cpM-CY-FHq">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" backgroundImage="Rock"/>
@@ -45,7 +38,14 @@
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <state key="normal" title="Lets Play!"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="167" y="407" width="66" height="30"/>
+                                    <rect key="frame" x="167" y="325" width="66" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8zF-wc-izU">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="Scissors"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="302" y="261" width="25" height="21"/>
                                 </variation>
                             </button>
                         </subviews>
@@ -53,17 +53,17 @@
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="56j-fl-aBo"/>
-                                <exclude reference="8zF-wc-izU"/>
                                 <exclude reference="cpM-CY-FHq"/>
                                 <exclude reference="2Od-wJ-0vR"/>
+                                <exclude reference="8zF-wc-izU"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="56j-fl-aBo"/>
-                                <include reference="8zF-wc-izU"/>
                                 <include reference="cpM-CY-FHq"/>
                                 <include reference="2Od-wJ-0vR"/>
+                                <include reference="8zF-wc-izU"/>
                             </mask>
                         </variation>
                     </view>
@@ -95,22 +95,40 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="175" y="462" width="76" height="30"/>
                                 </variation>
+                                <connections>
+                                    <action selector="playAgain" destination="i66-Pi-Mgb" eventType="touchUpInside" id="Dfb-2V-gfF"/>
+                                </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="resultlabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-UO-DNj">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="160" y="356" width="80" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="etL-C9-yPD"/>
                                 <exclude reference="HCX-pu-OmV"/>
+                                <exclude reference="0lJ-UO-DNj"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="etL-C9-yPD"/>
                                 <include reference="HCX-pu-OmV"/>
+                                <include reference="0lJ-UO-DNj"/>
                             </mask>
                         </variation>
                     </view>
+                    <connections>
+                        <outlet property="resultImage" destination="etL-C9-yPD" id="EcI-6b-d5Z"/>
+                        <outlet property="resultLabel" destination="0lJ-UO-DNj" id="voS-if-JeQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xbp-XV-M1C" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
