@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		234B50A61C548998000C3473 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234B50A51C548998000C3473 /* ResultsViewController.swift */; };
 		23E272621C4F4900009B6DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E272611C4F4900009B6DF0 /* AppDelegate.swift */; };
 		23E272641C4F4900009B6DF0 /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23E272631C4F4900009B6DF0 /* ChoiceViewController.swift */; };
 		23E272671C4F4900009B6DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23E272651C4F4900009B6DF0 /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		234B50A51C548998000C3473 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		23E2725E1C4F4900009B6DF0 /* Roshamdo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshamdo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23E272611C4F4900009B6DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23E272631C4F4900009B6DF0 /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				23E272611C4F4900009B6DF0 /* AppDelegate.swift */,
 				23E272631C4F4900009B6DF0 /* ChoiceViewController.swift */,
 				23E272651C4F4900009B6DF0 /* Main.storyboard */,
+				234B50A51C548998000C3473 /* ResultsViewController.swift */,
 				23E272681C4F4900009B6DF0 /* Assets.xcassets */,
 				23E2726A1C4F4900009B6DF0 /* LaunchScreen.storyboard */,
 				23E2726D1C4F4900009B6DF0 /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				23E272641C4F4900009B6DF0 /* ChoiceViewController.swift in Sources */,
 				23E272621C4F4900009B6DF0 /* AppDelegate.swift in Sources */,
+				234B50A61C548998000C3473 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
