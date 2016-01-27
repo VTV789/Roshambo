@@ -31,7 +31,7 @@
                                     <rect key="frame" x="73" y="261" width="25" height="21"/>
                                 </variation>
                                 <connections>
-                                    <action selector="playRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UGQ-Ee-RGJ"/>
+                                    <action selector="playRock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JcV-fX-cck"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Od-wJ-0vR">
@@ -84,12 +84,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="etL-C9-yPD">
-                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="80" y="105" width="240" height="206"/>
-                                </variation>
-                            </imageView>
                             <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="resultlabel" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0lJ-UO-DNj">
                                 <rect key="frame" x="-42" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -109,25 +103,30 @@
                                     <action selector="playAgain" destination="i66-Pi-Mgb" eventType="touchUpInside" id="Dfb-2V-gfF"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fIg-dt-i3L">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="98" width="240" height="218"/>
+                                </variation>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
-                                <exclude reference="etL-C9-yPD"/>
                                 <exclude reference="0lJ-UO-DNj"/>
                                 <exclude reference="HCX-pu-OmV"/>
+                                <exclude reference="fIg-dt-i3L"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
-                                <include reference="etL-C9-yPD"/>
                                 <include reference="0lJ-UO-DNj"/>
                                 <include reference="HCX-pu-OmV"/>
+                                <include reference="fIg-dt-i3L"/>
                             </mask>
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="resultImage" destination="etL-C9-yPD" id="EcI-6b-d5Z"/>
                         <outlet property="resultLabel" destination="0lJ-UO-DNj" id="voS-if-JeQ"/>
                     </connections>
                 </viewController>
