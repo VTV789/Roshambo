@@ -9,11 +9,13 @@
 import UIKit
 
 class ChoiceViewController: UIViewController {
+    
+    
+    // Mark: Programatic Approach
   
     @IBAction func playRock(sender: UIButton) {
-        
-        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController vc.userChoice = getUserShape(sender) presentViewController(vc, animated:  true, completion: nil)
-        
+        let vc = self.storyboard?.instantiateViewControllerWithIdentifier("ResultsViewController") as! ResultsViewController vc.userChioce = getUserShap(sender)
+        presentedViewController(vc, animated: true, completion: nil)
     }
 }
 
