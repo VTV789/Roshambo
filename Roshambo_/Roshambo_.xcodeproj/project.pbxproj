@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		23D78F901C5B19A5004CBF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */; };
-		23D78F921C5B19A5004CBF0F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D78F911C5B19A5004CBF0F /* ViewController.swift */; };
+		23D78F921C5B19A5004CBF0F /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */; };
 		23D78F951C5B19A5004CBF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D78F931C5B19A5004CBF0F /* Main.storyboard */; };
 		23D78F971C5B19A5004CBF0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23D78F961C5B19A5004CBF0F /* Assets.xcassets */; };
 		23D78F9A1C5B19A5004CBF0F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D78F981C5B19A5004CBF0F /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		23D78F8C1C5B19A5004CBF0F /* Roshambo_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		23D78F911C5B19A5004CBF0F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
 		23D78F941C5B19A5004CBF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23D78F961C5B19A5004CBF0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23D78F991C5B19A5004CBF0F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */,
-				23D78F911C5B19A5004CBF0F /* ViewController.swift */,
+				23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */,
 				23D78F931C5B19A5004CBF0F /* Main.storyboard */,
 				23D78F961C5B19A5004CBF0F /* Assets.xcassets */,
 				23D78F981C5B19A5004CBF0F /* LaunchScreen.storyboard */,
@@ -256,7 +256,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23D78F921C5B19A5004CBF0F /* ViewController.swift in Sources */,
+				23D78F921C5B19A5004CBF0F /* ChoiceViewController.swift in Sources */,
 				23D78F901C5B19A5004CBF0F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +482,7 @@
 				23D78FB61C5B19A5004CBF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23D78FB71C5B19A5004CBF0F /* Build configuration list for PBXNativeTarget "Roshambo_Tests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +491,7 @@
 				23D78FB91C5B19A5004CBF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		23D78FBA1C5B19A5004CBF0F /* Build configuration list for PBXNativeTarget "Roshambo_UITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +500,7 @@
 				23D78FBC1C5B19A5004CBF0F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
