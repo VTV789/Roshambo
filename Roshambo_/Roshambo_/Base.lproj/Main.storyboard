@@ -71,10 +71,10 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
         </scene>
-        <!--View Controller-->
+        <!--Results View Controller-->
         <scene sceneID="qlL-u1-TSF">
             <objects>
-                <viewController id="Oc0-CM-Tqr" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultsViewController" id="Oc0-CM-Tqr" customClass="ResultsViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Ajc-ay-0L5"/>
                         <viewControllerLayoutGuide type="bottom" id="SYa-o0-rgb"/>
@@ -86,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZj-3B-5nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1020" y="467"/>
+            <point key="canvasLocation" x="1038" y="460"/>
         </scene>
     </scenes>
     <resources>

@@ -6,4 +6,20 @@
 //  Copyright © 2016 Vinh. All rights reserved.
 //
 
-import Foundation
+import UIKit
+
+// The enum "Shape" represents a play or move 
+enum Shape: String {
+    case Rock = "Rock"
+    case Paper = "Pager"
+    case Scissors = "Scissors"
+    
+    // This func randomly generates an opponent's play
+    static func randomShape() -> Shape {
+        let shapes = ["Rock", "Paper", "Scissor"]
+        let randomChoice = Int(arc4random_uniform, (3))
+        return Shape(rawValue: shapes[randomChoice])!
+    }
+    
+}
+
