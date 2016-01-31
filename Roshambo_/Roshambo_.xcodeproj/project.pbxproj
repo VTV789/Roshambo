@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23440D401C5DBF60007DE243 /* ResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23440D3F1C5DBF60007DE243 /* ResultsViewController.swift */; };
 		23D78F901C5B19A5004CBF0F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */; };
 		23D78F921C5B19A5004CBF0F /* ChoiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */; };
 		23D78F951C5B19A5004CBF0F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23D78F931C5B19A5004CBF0F /* Main.storyboard */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		23440D3F1C5DBF60007DE243 /* ResultsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsViewController.swift; sourceTree = "<group>"; };
 		23D78F8C1C5B19A5004CBF0F /* Roshambo_.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Roshambo_.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceViewController.swift; sourceTree = "<group>"; };
@@ -100,6 +102,7 @@
 				23D78F8F1C5B19A5004CBF0F /* AppDelegate.swift */,
 				23D78F911C5B19A5004CBF0F /* ChoiceViewController.swift */,
 				23D78F931C5B19A5004CBF0F /* Main.storyboard */,
+				23440D3F1C5DBF60007DE243 /* ResultsViewController.swift */,
 				23D78F961C5B19A5004CBF0F /* Assets.xcassets */,
 				23D78F981C5B19A5004CBF0F /* LaunchScreen.storyboard */,
 				23D78F9B1C5B19A5004CBF0F /* Info.plist */,
@@ -258,6 +261,7 @@
 			files = (
 				23D78F921C5B19A5004CBF0F /* ChoiceViewController.swift in Sources */,
 				23D78F901C5B19A5004CBF0F /* AppDelegate.swift in Sources */,
+				23440D401C5DBF60007DE243 /* ResultsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
