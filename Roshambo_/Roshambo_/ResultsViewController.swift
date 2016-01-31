@@ -23,3 +23,14 @@ enum Shape: String {
     
 }
 
+class ResultsViewController: UIViewController {
+    // MARK: Outlets
+    
+    
+    // MARK: Shapes
+    // When the ResultsViewController is initialized a userChoice is passed and an opponent's play is generated.
+    var userChoice: Shape!
+    private let opponentChoice: Shape = Shape.randomShape()
+
+    
+}
