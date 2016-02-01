@@ -21,6 +21,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func playRock(sender: UIButton) {
+        
+        
+    }
+    
+    // MARK: Utilites 
+    
+    // The enum "Shape" represents a play or move
+    private func getUserShape(sender: UIButton) -> Shape {
+        //Titles are set to one of : Rock, Paper, Scissors
+        let shape = sender.titleForState(.Normal)!
+        return Shape(rawValue: Shape)!
     }
 
 }

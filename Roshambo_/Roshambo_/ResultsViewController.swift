@@ -17,7 +17,7 @@ enum Shape: String {
     // This func randomly generates an opponent's play
     static func randomShape() -> Shape {
         let shapes = ["Rock", "Paper", "Scissor"]
-        let randomChoice = Int(arc4random_uniform, (3))
+        let randomChoice = Int(arc4random_uniform(3))
         return Shape(rawValue: shapes[randomChoice])!
     }
     
