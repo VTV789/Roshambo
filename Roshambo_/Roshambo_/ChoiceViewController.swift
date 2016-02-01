@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     private func getUserShape(sender: UIButton) -> Shape {
         //Titles are set to one of : Rock, Paper, Scissors
         let shape = sender.titleForState(.Normal)!
-        return Shape(rawValue: Shape)!
+        return Shape(rawValue: Shape)
     }
 
 }
