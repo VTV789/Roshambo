@@ -70,6 +70,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="547.5" y="527"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="qlL-u1-TSF">
@@ -80,6 +81,7 @@
                         <viewControllerLayoutGuide type="bottom" id="SYa-o0-rgb"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="JyH-Sa-LgL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="hmr-bU-FCh">
@@ -97,25 +99,34 @@
                                     <rect key="frame" x="152" y="373" width="97" height="21"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8aK-8a-yxg">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="Play Again"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="165" y="505" width="71" height="30"/>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="hmr-bU-FCh"/>
                                 <exclude reference="wQk-JG-T3H"/>
+                                <exclude reference="8aK-8a-yxg"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
                             <mask key="subviews">
                                 <include reference="hmr-bU-FCh"/>
                                 <include reference="wQk-JG-T3H"/>
+                                <include reference="8aK-8a-yxg"/>
                             </mask>
                         </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="nZj-3B-5nr" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1038" y="460"/>
+            <point key="canvasLocation" x="1288.5" y="527"/>
         </scene>
     </scenes>
     <resources>
